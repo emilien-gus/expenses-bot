@@ -1,0 +1,30 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go
+backend/tmp/
+backend/vendor/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Environment
+.env
+
+# IDE
+.agents/
+.cursor/
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker volumes
+postgres_data/
